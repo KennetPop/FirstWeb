@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toledo Tea Company - Payment</title>
+  <link rel="stylesheet" href="paymentstyle.css">
+</head>
+<body>
+  <div class="payment-container">
+    <h2>Payment Information</h2>
+    <form class="payment-form">
+      <label for="card-number">Credit Card Number:</label>
+      <input type="text" id="card-number" name="card-number" required>
+      <label for="expiry-date">Expiry Date:</label>
+      <input type="text" id="expiry-date" name="expiry-date" required>
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" required>
+      <input type="submit" value="Make Payment">
+    </form>
+    
+    <div class="qr-container">
+      <h3>Scan QR Code for Payment</h3>
+      <img src="images/ekyash.jpg" alt="QR Code" width="300" height="350">
+    </div>
+  </div>
+</body>
+</html>
